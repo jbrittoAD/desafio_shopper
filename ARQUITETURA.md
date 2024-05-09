@@ -1,6 +1,20 @@
-### Introdução
+### Introdução/Resposta
 
-Eu utilizaria o Cloud Storage para receber os arquivos CSV das Pesquisas de Preços, já que ele oferece uma maneira eficiente de armazenar grandes volumes de dados de forma escalável e acessível. Para automatizar o processo de transferência dos arquivos do diretório SFTP para o Cloud Storage, optaria por configurar um serviço de transferência programada, como o Cloud Storage Transfer Service, garantindo assim uma integração contínua e sem intervenção manual. Ao lidar com eventos da API de Análise de Sentimentos de Redes Sociais, eu escolheria configurar um Pub/Sub para receber esses eventos, permitindo uma comunicação assíncrona e escalável entre os componentes do sistema. Para armazenar os dados de maneira eficiente, eu optaria pelo BigQuery, aproveitando sua capacidade de lidar com grandes volumes de dados estruturados e não estruturados, além de oferecer consultas SQL rápidas e escaláveis sobre esses dados. Para processar e transformar os dados brutos antes de carregá-los no BigQuery, se necessário, eu utilizaria o Dataflow, o que me permitiria realizar transformações tanto em tempo real quanto em lote de maneira eficiente e escalável. Ao lidar com dados não estruturados, como os eventos da API de Análise de Sentimentos, eu consideraria usar serviços de análise de texto, como o Cloud Natural Language API, para extrair insights valiosos antes de carregar os dados no BigQuery. No que diz respeito à governança e segurança dos dados, eu configuraria políticas de controle de acesso no BigQuery para garantir que apenas usuários autorizados tenham acesso aos dados, além de implementar políticas de retenção e versionamento no Cloud Storage para garantir conformidade e recuperação de dados. Para visualizar os dados e obter insights, eu utilizaria ferramentas como o Data Studio, integrando-o com o BigQuery para consultas ao vivo e atualizações automáticas dos relatórios conforme os dados são atualizados, o que me permitiria criar dashboards e relatórios interativos para análises avançadas.
+Eu utilizaria o Cloud Storage para receber os arquivos CSV das Pesquisas de Preços, já que ele oferece uma maneira eficiente de armazenar grandes volumes de dados de forma escalável e acessível.
+
+Para automatizar o processo de transferência dos arquivos do diretório SFTP para o Cloud Storage, optaria por configurar um serviço de transferência programada, como o Cloud Storage Transfer Service, garantindo assim uma integração contínua e sem intervenção manual.
+
+Ao lidar com eventos da API de Análise de Sentimentos de Redes Sociais, eu escolheria configurar um Pub/Sub para receber esses eventos, permitindo uma comunicação assíncrona e escalável entre os componentes do sistema.
+
+Para armazenar os dados de maneira eficiente, eu optaria pelo BigQuery, aproveitando sua capacidade de lidar com grandes volumes de dados estruturados e não estruturados, além de oferecer consultas SQL rápidas e escaláveis sobre esses dados.
+
+Para processar e transformar os dados brutos antes de carregá-los no BigQuery, se necessário, eu utilizaria o Dataflow, o que me permitiria realizar transformações tanto em tempo real quanto em lote de maneira eficiente e escalável.
+
+Ao lidar com dados não estruturados, como os eventos da API de Análise de Sentimentos, eu consideraria usar serviços de análise de texto, como o Cloud Natural Language API, para extrair insights valiosos antes de carregar os dados no BigQuery.
+
+No que diz respeito à governança e segurança dos dados, eu configuraria políticas de controle de acesso no BigQuery para garantir que apenas usuários autorizados tenham acesso aos dados, além de implementar políticas de retenção e versionamento no Cloud Storage para garantir conformidade e recuperação de dados.
+
+Para visualizar os dados e obter insights, eu utilizaria ferramentas como o Data Studio, integrando-o com o BigQuery para consultas ao vivo e atualizações automáticas dos relatórios conforme os dados são atualizados, o que me permitiria criar dashboards e relatórios interativos para análises avançadas.
 
 ### Resumo
 
