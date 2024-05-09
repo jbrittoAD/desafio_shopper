@@ -13,13 +13,13 @@ Para executar este projeto localmente, siga estas etapas:
 1. Clone este repositório para o seu ambiente local:
 
 ```
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/jbrittoAD/desafio_shopper.git
 ```
 
 2. Navegue até o diretório do projeto:
 
 ```
-cd nome-do-repositorio
+cd desafio_shopper
 ```
 
 3. Instale as dependências usando pip:
