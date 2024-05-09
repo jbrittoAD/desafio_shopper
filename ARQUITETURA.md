@@ -18,7 +18,7 @@ Para visualizar os dados e obter insights, eu utilizaria ferramentas como o Data
 
 ### Resumo
 
-Vamos mergulhar um pouco mais na explicação de cada componente da arquitetura de Data Lake proposta:
+Resumindo um pouco mais na explicação de cada componente da arquitetura de Data Lake proposta:
 
 1. **Ingestão de Dados:**
    - Utilização do Cloud Storage para receber os arquivos CSV das Pesquisas de Preços.
